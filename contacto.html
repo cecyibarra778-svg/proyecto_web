@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio: Cecilia Gabriela</title>
+
+    <!-- Enlace a la hoja de estilos CSS general -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         HEADER / ENCABEZADO
+         Contiene la barra de navegación (existente)
+         y la sección Hero (banner principal de bienvenida).
+         ========================================== -->
+    <header class="site-header">
+        
+        <!-- BARRA DE NAVEGACIÓN (Estructura intacta) -->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <!-- Logotipo del sitio web -->
+                <a href="index.html" class="navbar-logo">Cecilia Gabriela</a>
+                
+                <!-- Botón de menú hamburguesa para dispositivos móviles -->
+                <button class="navbar-toggle" aria-label="Abrir menú">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <!-- Menú principal con enlaces de navegación -->
+                <ul class="navbar-menu">
+                    <li> <a href="#" class="active"> Sobre mi </a> </li>
+                    <li> <a href="#about"> Fotografía</a> </li>
+                    <li> <a href="#services"> Exposiciones </a> </li>
+                    <li> <a href="#blog"> Diseño Gráfico </a> </li>
+                    <li> <a href="#contacto.html"> Contacto </a> </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- SECCIÓN HERO
+             Presentación visual de impacto justo debajo de la barra de navegación.
+             Función: Captar la atención inmediata del visitante y ofrecer una acción directa (CTA). -->
+        <div class="hero-container">
+            <div class="hero-content">
+                <!-- Título principal de la página -->
+                <h1 class="hero-title">Esta es la sección de contacto</h1>
+                <img src="Fotografia.png" alt="Fotografía">
+                <!-- Breve descripción o subtítulo persuasivo -->
+                <p class="hero-subtitle">Diseñadora gráfica y artista. Mi práctica
+parte de la exploración de la emoción como
+materia de trabajo.
+
+Desarrollo proyectos desde lo cotidiano,
+con un enfoque sensorial y doméstico.
+A través del trabajo conceptual, transformo
+estas ideas en piezas visuales con intención
+y narrativa.</p>
+
+
+                <!-- Botón de llamada a la acción (Call To Action) -->
+                <a href="#services" class="hero-btn">Conoce más</a>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- ==========================================
+         MAIN / CONTENIDO PRINCIPAL
+         Contenedor semántico principal del sitio web.
+         Aloja el contenido relevante dividido en secciones.
+         ========================================== -->
+    <main class="main-content">
+
+        <!-- SECCIÓN DE SERVICIOS / CARACTERÍSTICAS
+             Función: Presentar los servicios o características clave en formato de cuadrícula (cards). -->
+        <section id="services" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">  ✩ ˚ ⊹ ࣪꒰ঌ Conoce más ໒꒱⁎⁺˳ָ ✷</h2>
+                <p class="section-description">Diferentes áreas, diferentes soluciones</p>
+            </div>
+
+            <!-- Cuadrícula flexible para organizar las tarjetas de información -->
+            <div class="cards-grid">
+                <!-- Tarjeta 1 -->
+                <article class="card">
+                    <div class="card-icon">📷</div>
+                    <h3 class="card-title">Fotografía</h3>
+                    <p class="card-text">Una mirada hacia lo cotidiano, las personas y los espacios que habitamos. He desarrollado proyectos de dirección creativa y de cámara.</p>
+                </article>
+
+                <!-- Tarjeta 2 -->
+                <article class="card">
+                    <div class="card-icon">🎨</div>
+                    <h3 class="card-title">Exposiciones</h3>
+                    <p class="card-text">A través de la pintura, transformo experiencias, sensaciones e imágenes cotidianas en formas tangibles. He participado en proyectos de ilustacion, pintura y arte contemporaneo como: Calendario Morras chidas -2026; Boogie nigths -MAGMA; Con permiso, voy a florecer-Artepolis; Atracciones fantásticas -Atracciones Guadalajara; Ilustraciones para Proyecto 46</p>
+                </article>
+                                <img src="(in)habitar.png" alt="inhabitar">
+
+                <!-- Tarjeta 3 -->
+                <article class="card">
+                    <div class="card-icon">💻</div>
+                    <h3 class="card-title">Diseño Gráfico</h3>
+                    <p class="card-text">Proyectos que conectan ideas con formas visuales. Desde la identidad gráfica hasta el diseño editorial y la dirección de arte, busco construir propuestas con intención, coherencia y personalidad.</p>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- SECCIÓN "ACERCA DE" / INFORMACIÓN
+             Función: Ofrecer contexto adicional sobre la empresa o proyecto. -->
+        <section id="about" class="content-section about-section">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2 class="section-title">╰˚₊୨🍡୧・</h2>
+                    <p>Mi trabajo integra la exploración artística y el diseño visual como herramientas para desarrollar propuestas con identidad, intención y sentido. Cada proyecto representa una oportunidad para experimentar, comunicar ideas y generar nuevas perspectivas a través de la imagen.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER / PIE DE PÁGINA
+         Función: Mostrar información de derechos, enlaces útiles y redes sociales.
+         ========================================== -->
+    <footer id="contact" class="site-footer">
+        <div class="footer-container">
+            <!-- Columna 1: Información de marca -->
+            <div class="footer-col">
+                <h4 class="footer-brand">Portafolio</h4>
+                <p class="footer-desc">Cecilia Gabriela Ibarra Rocha</p>
+            </div>
+
+            <!-- Columna 2: Enlaces rápidos de navegación -->
+            <div class="footer-col">
+                <h5 class="footer-heading">Enlaces Rápidos</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Fotografía</a></li>
+                    <li><a href="#about">Exposiciones</a></li>
+                    <li><a href="#services">Diseño Gráfico</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Información de contacto -->
+            <div class="footer-col">
+                <h5 class="footer-heading">Contacto</h5>
+                <p>Email: cecyibarra778@gmail.com</p>
+                <p>Teléfono: +52 (444) 123-4567</p>
+                <p>Intagram: es.inmarcesible</p>
+            </div>
+        </div>
+
+        <!-- Barra inferior de derechos de autor -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script de control del menú móvil -->
+    <script src="script.js"></script>
+</body>
+</html>
